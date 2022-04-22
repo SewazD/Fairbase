@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "689296959070",
+    "project_id": "fairbase-32a1e",
+    "storage_bucket": "fairbase-32a1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689296959070:android:1f640ac70120745fcef6cf",
+        "android_client_info": {
+          "package_name": "com.sewazd.fairbase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689296959070-q4qkflho4n2vvra2ckllic6p43hnip4l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCujYm7eOcuSroYTEQKjBDZoUb9wn4h0_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689296959070-q4qkflho4n2vvra2ckllic6p43hnip4l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
