@@ -57,6 +57,11 @@ class DataActivity : AppCompatActivity() {
                 startActivity(loginIntent)
                 return true
             }
+            R.id.listButton ->{
+                val listIntent = Intent(this, ListActivity::class.java)
+                startActivity(listIntent)
+                return true
+            }
         }
         return super.onOptionsItemSelected(item)
 

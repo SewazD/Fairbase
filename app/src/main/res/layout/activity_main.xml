@@ -9,7 +9,7 @@
     <Button
         android:id="@+id/buttonLogin"
         android:layout_width="213dp"
-        android:layout_height="41dp"
+        android:layout_height="48dp"
         android:autoText="false"
         android:background="#805555"
         android:backgroundTint="#E47B7B"
@@ -49,12 +49,15 @@
         android:ems="10"
         android:hint="Введите Email"
         android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.253" />
+        app:layout_constraintVertical_bias="0.253"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/TextPassword"
@@ -63,6 +66,8 @@
         android:ems="10"
         android:hint="Введите пароль"
         android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -100,12 +105,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Зарегестрироватся"
-        android:textColor="#2196F3"
+        android:textColor="#1976D2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.581" />
+
+    <TextView
+        android:id="@+id/passwordReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Востановить пароль?"
+        android:textColor="#1976D2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.398" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

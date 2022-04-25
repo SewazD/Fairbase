@@ -10,15 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fairbase">
         <activity
+            android:name=".ListActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegistrationActivity"
             android:exported="false" />
         <activity
             android:name=".DataActivity"
             android:exported="false" />
-        <activity
-            android:name=".ui.login.LoginActivity"
-            android:exported="false"
-            android:label="@string/title_activity_login" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
